@@ -1,6 +1,3 @@
-// process.env.OPENAI_API_KEY = "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";
-// process.env.TAVILY_API_KEY = "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";
-
 // import { CheerioWebBaseLoader } from "@langchain/community/document_loaders/web/cheerio";
 // import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 // import { MemoryVectorStore } from "langchain/vectorstores/memory";

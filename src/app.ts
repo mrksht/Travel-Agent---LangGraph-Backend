@@ -6,7 +6,10 @@ import session from "express-session";
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5173",
+  origin: [
+    "http://localhost:5143",
+    "https://travel-agent-ui.vercel.app"
+  ],
   credentials: true
 }));
 
@@ -25,4 +28,4 @@ app.use(session({
 
 app.use("/agent", agentRoutes);
 
-export default app
+export default app;

@@ -22,6 +22,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "google-auth-library": "^9.15.1",
     "langchain": "^0.3.27",
     "zod": "^3.25.28",
     "zod-to-json-schema": "^3.24.5"
@@ -30,6 +32,7 @@
     "@types/cors": "^2.8.18",
     "@types/entities": "^2.0.2",
     "@types/express": "^5.0.2",
+    "@types/express-session": "^1.18.1",
     "@types/node": "^22.15.21",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"

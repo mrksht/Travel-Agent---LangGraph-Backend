@@ -62,7 +62,6 @@ export const logout = (req: Request, res: Response) => {
 
 export const getUser = (req: Request, res: Response) => {
   if (req.session.user) {
-    console.log('Here', req)
     res.json({ user: req.session.user });
   } else {
     res.status(401).json({ error: "Not authenticated" });
